@@ -28,6 +28,8 @@ const ProductsSection = () => {
       ],
       emoji: "🍏",
       accentColor: "amber" as const,
+      imageUrl:
+        "https://cdn.poehali.dev/files/8b51d8c9-eb74-4df0-8064-0aed6a07c51f.png",
     },
     {
       title: "Сливовая настойка",
