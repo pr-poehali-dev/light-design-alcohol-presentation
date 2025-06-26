@@ -42,6 +42,8 @@ const ProductsSection = () => {
       ],
       emoji: "🍑",
       accentColor: "deep-red" as const,
+      imageUrl:
+        "https://cdn.poehali.dev/files/59fba4cd-8567-4c59-8a9f-a0b77b917152.png",
     },
   ];
 
