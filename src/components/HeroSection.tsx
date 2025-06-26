@@ -25,25 +25,6 @@ const HeroSection = () => {
             Настоящий славянский дух в благородном напитке!
           </h1>
           <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
-          <p className="text-xl md:text-2xl text-warm-brown mb-8 max-w-3xl mx-auto leading-relaxed">
-            Ароматная медовая настойка с ягодами и травами, созданная по
-            старинным рецептам.
-          </p>
-
-          <div className="slide-up flex flex-col md:flex-row items-center justify-center gap-8 mb-12">
-            <div className="text-center">
-              <div className="text-4xl mb-2">🌿</div>
-              <p className="text-warm-brown font-semibold">Лесные травы</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-2">🫐</div>
-              <p className="text-warm-brown font-semibold">Лесные ягоды</p>
-            </div>
-          </div>
-
-          <button className="bg-deep-red hover:bg-deep-red/90 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg mb-12">
-            Узнать больше
-          </button>
 
           <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 max-w-4xl mx-auto border border-gold/20">
             <h2 className="text-3xl font-bold text-gold mb-6">
