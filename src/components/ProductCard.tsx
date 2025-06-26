@@ -64,11 +64,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         ))}
       </div>
 
-      <button
-        className={`w-full mt-8 bg-${accentColor} hover:bg-${accentColor}/90 text-white py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105`}
-      >
-        Подробнее
-      </button>
+      {/* Кнопка "Подробнее" удалена */}
     </div>
   );
 };
