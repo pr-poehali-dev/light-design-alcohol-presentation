@@ -32,10 +32,6 @@ const HeroSection = () => {
 
           <div className="slide-up flex flex-col md:flex-row items-center justify-center gap-8 mb-12">
             <div className="text-center">
-              <div className="text-4xl mb-2">🍯</div>
-              <p className="text-warm-brown font-semibold">Натуральный мед</p>
-            </div>
-            <div className="text-center">
               <div className="text-4xl mb-2">🌿</div>
               <p className="text-warm-brown font-semibold">Лесные травы</p>
             </div>
