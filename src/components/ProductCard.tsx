@@ -6,6 +6,7 @@ interface ProductCardProps {
   features: string[];
   emoji: string;
   accentColor: "gold" | "amber" | "deep-red";
+  imageUrl?: string;
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({
@@ -14,6 +15,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   features,
   emoji,
   accentColor,
+  imageUrl,
 }) => {
   const colorClasses = {
     gold: "border-gold/30 hover:border-gold/50 text-gold",
@@ -25,7 +27,17 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <div
       className={`premium-card p-8 ${colorClasses[accentColor]} max-w-md mx-auto`}
     >
-      <div className="text-6xl mb-6 text-center">{emoji}</div>
+      {imageUrl ? (
+        <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gold/30">
+          <img
+            src={imageUrl}
+            alt={title}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      ) : (
+        <div className="text-6xl mb-6 text-center">{emoji}</div>
+      )}
 
       <h3
         className={`premium-text text-3xl font-bold mb-4 text-center ${colorClasses[accentColor].split(" ")[2]}`}

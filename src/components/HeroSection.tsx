@@ -3,6 +3,15 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="min-h-screen premium-gradient flex items-center justify-center relative overflow-hidden">
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-20"
+        style={{
+          backgroundImage:
+            "url(https://cdn.poehali.dev/files/0a663ab7-7e8a-4cd4-8e98-c0223afd0c23.png)",
+        }}
+      ></div>
+
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 border-2 border-gold rounded-full"></div>

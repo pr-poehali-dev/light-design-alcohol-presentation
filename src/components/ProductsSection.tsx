@@ -14,6 +14,8 @@ const ProductsSection = () => {
       ],
       emoji: "🍯",
       accentColor: "gold" as const,
+      imageUrl:
+        "https://cdn.poehali.dev/files/0a663ab7-7e8a-4cd4-8e98-c0223afd0c23.png",
     },
     {
       title: "Яблочная водка",
