@@ -22,12 +22,12 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="fade-in">
           <h1 className="premium-text text-6xl md:text-8xl font-bold text-deep-red mb-6">
-            Славянка
+            Настоящий славянский дух в благородном напитке!
           </h1>
           <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
           <p className="text-xl md:text-2xl text-warm-brown mb-8 max-w-3xl mx-auto leading-relaxed">
-            Настоящий славянский дух в благородном напитке! Ароматная медовая
-            настойка с ягодами и травами, созданная по старинным рецептам.
+            Ароматная медовая настойка с ягодами и травами, созданная по
+            старинным рецептам.
           </p>
 
           <div className="slide-up flex flex-col md:flex-row items-center justify-center gap-8 mb-12">
@@ -41,9 +41,25 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <button className="bg-deep-red hover:bg-deep-red/90 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
+          <button className="bg-deep-red hover:bg-deep-red/90 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg mb-12">
             Узнать больше
           </button>
+
+          <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 max-w-4xl mx-auto border border-gold/20">
+            <h2 className="text-3xl font-bold text-gold mb-6">
+              Даниил, поздравляю! 🥃✨
+            </h2>
+            <p className="text-lg text-warm-brown mb-4 leading-relaxed">
+              Желаю, чтобы жизнь была такой же яркой, как твои любимые напитки,
+              и такой же насыщенной, как хорошая выдержанная настойка! Пусть
+              успех льётся рекой, а в твоём бокале всегда будет повод для
+              радости.
+            </p>
+            <p className="text-lg text-warm-brown leading-relaxed">
+              За крутыми идеями – крутые застолья! 🍻 Будь на волне – и не
+              только алкогольной! 😉
+            </p>
+          </div>
         </div>
       </div>
     </section>
